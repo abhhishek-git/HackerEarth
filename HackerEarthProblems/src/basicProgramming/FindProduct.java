@@ -1,9 +1,11 @@
 package basicProgramming;
 //https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/find-product/submissions/
 
+/*If we don't use the MOD, then result for large numbers is 0
+(A * B) mod C = (A mod C * B mod C) mod C
+https://www.geeksforgeeks.org/modulo-1097-1000000007 */
 import java.util.Scanner;
 
-//If we don't use the MOD, then result for large numbers is 0
 public class FindProduct {
 	static final int MOD = 10000007;
 	public static void main(String[] args) {
